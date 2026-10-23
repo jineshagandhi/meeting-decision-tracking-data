@@ -1,0 +1,30 @@
+Anita: Let's go. First, the date. Ravi?
+Ravi: The IT team's live endpoint went up on Tuesday, and it works. So the fifteenth of March stands, no change.
+Anita: Great. So we're still on for the fifteenth of March at Andheri. [[G13]]
+Kiran: The Andheri staff will be relieved.
+Dr. Mehta: Can we talk about the booking window? The thirty-day limit is a problem for my diabetes follow-ups. They come every eight weeks.
+Kiran: They call the front desk every time, and we book them by hand.
+Ravi: The schedule system has sessions for about three months ahead, so a longer window is no problem technically.
+Anita: Then let's change the earlier rule. We're extending the booking window from thirty days to sixty days. Agreed? [[G12]]
+Dr. Mehta: Agreed.
+Sofia: Fine.
+Ravi: Easy change.
+Anita: Rosters. Kiran, you wanted something?
+Kiran: Not for patients, for staff. Every Friday I hand out the shift roster on paper. Could the system email it?
+Ravi: We can send it from the same mail service.
+Anita: Okay. Staff get their shift roster by email every Friday. [[G11]]
+Kiran: And Andheri needs a second check-in kiosk. On Mondays the queue goes out of the door.
+Sofia: The budget has room for one more kiosk this quarter.
+Anita: Then we install a second check-in kiosk at the Andheri clinic. [[G14]]
+Dr. Mehta: One thing from the doctors. Sometimes we need to block a slot for an emergency, at short notice.
+Ravi: Doctors can block slots in the app, and the block is written back to the schedule system, so that stays the source of truth.
+Anita: Good. So doctors can block emergency slots in the app, and the blocks sync back to the schedule system. [[G15]]
+Kiran: By the way, Razorpay's fees went up this month. I saw the notice.
+Sofia: Did they? I'd have to check the new rates.
+Anita: Let's look at that later, it's not urgent.
+Ravi: Someone asked about home delivery of medicines through partner pharmacies. Is that ours? [[N3]]
+Anita: Not for this app. Let's not go there now.
+Dr. Mehta: Will the app work on the old tablets at the Andheri desk?
+Ravi: We tested on two of them. Slow, but it works.
+Anita: Okay, that's it for today. Sofia, you're on leave next week, right?
+Sofia: Yes, back the week after.

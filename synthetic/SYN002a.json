@@ -1,0 +1,179 @@
+{
+  "topic_list": [],
+  "general_query_list": [],
+  "specific_query_list": [],
+  "meeting_transcripts": [
+    {
+      "speaker": "Anita",
+      "content": "Morning, everyone. Thanks for coming in early. This is the kickoff for ClinicLink, the patient booking app for our outpatient clinics."
+    },
+    {
+      "speaker": "Kiran",
+      "content": "Morning. I brought chai, it's on the side table."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "You're a hero, Kiran."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Let's go through the big choices today so Ravi's team can start next week. First, reminders. Our no-show rate at Andheri is around eighteen percent."
+    },
+    {
+      "speaker": "Kiran",
+      "content": "Some days it's worse. Mondays are terrible."
+    },
+    {
+      "speaker": "Dr. Mehta",
+      "content": "A reminder helps a lot. At my old hospital we sent an SMS two days before, and no-shows dropped by almost a third."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "SMS is easy for us. We already have a bulk SMS account for the lab reports."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Two days before gives people time to reschedule instead of just not turning up."
+    },
+    {
+      "speaker": "Kiran",
+      "content": "And patients do read SMS. Not everyone has a smartphone."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Okay, so appointment reminders go out by SMS, two days before the appointment. Agreed?"
+    },
+    {
+      "speaker": "Dr. Mehta",
+      "content": "Agreed."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "Fine by me."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Next, where and when we launch."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "Andheri is the obvious pilot. Their front desk already uses the new schedule screens."
+    },
+    {
+      "speaker": "Kiran",
+      "content": "And the Andheri manager is keen. She asked me twice last week."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Ravi, is the first of March realistic?"
+    },
+    {
+      "speaker": "Ravi",
+      "content": "If we don't add anything big, yes. Tight, but doable."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Then the app launches at the Andheri clinic on the first of March."
+    },
+    {
+      "speaker": "Kiran",
+      "content": "I'll tell the Andheri team today."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Payments. Sofia, over to you."
+    },
+    {
+      "speaker": "Sofia",
+      "content": "For online payments I'd go with Razorpay. Our finance system already reconciles their settlement reports, and their compliance paperwork is done."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "Their SDK is fine. I've used it before."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Any objections? No? Online payments go through Razorpay, then."
+    },
+    {
+      "speaker": "Sofia",
+      "content": "I'll send Ravi the keys for the test account."
+    },
+    {
+      "speaker": "Anita",
+      "content": "How far ahead can patients book?"
+    },
+    {
+      "speaker": "Dr. Mehta",
+      "content": "Not too far, please. Doctors' leave plans change, and then the front desk has to cancel people."
+    },
+    {
+      "speaker": "Kiran",
+      "content": "A month is what we do on the phone today."
+    },
+    {
+      "speaker": "Anita",
+      "content": "So patients can book up to thirty days ahead."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "Thirty days, noted."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Languages."
+    },
+    {
+      "speaker": "Kiran",
+      "content": "Hindi, definitely. Half our patients at Andheri prefer it."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "English and Hindi is fine. Every extra language means more testing."
+    },
+    {
+      "speaker": "Anita",
+      "content": "The app supports English and Hindi at launch."
+    },
+    {
+      "speaker": "Dr. Mehta",
+      "content": "Can I raise video consultations? Some of my colleagues keep asking about them."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "Video is a whole project. Recording, consent, a stable connection on patients' phones..."
+    },
+    {
+      "speaker": "Dr. Mehta",
+      "content": "Honestly, I agree. Not for the first version."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Then video consultations are out of scope for version one."
+    },
+    {
+      "speaker": "Kiran",
+      "content": "One idea from the front desk: loyalty points for regular patients? People keep asking about discounts."
+    },
+    {
+      "speaker": "Sofia",
+      "content": "That needs a proper look on the finance side. Let's not decide it now."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Agreed, we park the loyalty idea."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "Can someone get me the slot data this week?"
+    },
+    {
+      "speaker": "Kiran",
+      "content": "I'll ask the Andheri manager."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Good. Same time next week. Thanks, all."
+    }
+  ]
+}

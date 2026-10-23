@@ -1,0 +1,15 @@
+﻿pair_id,series,annotator_A,annotator_B,final_label,reason
+D10-D1,ES2004,SAME,CONTRADICTORY,SAME,D10 umbrella prototype freeze confirms and retains the teletext exclusion without modification.
+D10-D2,ES2004,UNSURE,REVISED,SAME,"Updated after a consistency check, agreed by both annotators: same situation as D10-D1 (early decision never changed); the prototype freeze confirms and retains the TV-focused scope."
+D10-D7,ES2004,SAME,REVISED,SAME,D10 umbrella prototype freeze confirms and retains the rubber outer cover color theming without modification.
+D10-D8,ES2004,SAME,REVISED,SAME,D10 umbrella prototype freeze confirms and retains the flip-style LCD and button layout without modification.
+D10-D9,ES2004,SAME,REVISED,SAME,D10 umbrella prototype freeze confirms and retains the lower-panel thumb control placement without modification.
+D11-D1,ES2004,UNRELATED,SAME,UNRELATED,Teletext exclusion and voice recognition budgeting concern separate functional subsystems despite shared cost-reduction intent.
+D11-D2,ES2004,UNRELATED,REFINES,UNRELATED,Overall device equipment focus (TV-only) and component-level voice recognition budgeting address distinct product aspects.
+D11-D8,ES2004,UNRELATED,REFINES,UNRELATED,Physical flip casing/display hardware design and voice recognition cost-cutting removal are distinct hardware decisions.
+D16-D13,ES2011,UNRELATED,REVISED,UNRELATED,The RF locator/finder base station and the TV on-screen display menu operate as independent functional subsystems.
+D19-D15,ES2011,UNRELATED,REVISED,UNRELATED,Teletext functional requirements and exterior casing shape aesthetics operate in completely disjoint domains.
+D19-D16,ES2011,UNRELATED,REFINES,UNRELATED,Displaying UI on the TV screen and exterior body casing ergonomics address separate design elements.
+D19-D17,ES2011,UNRELATED,REVISED,UNRELATED,Modifying the outer body shape/ergonomics does not alter the iPod-style scroll wheel input mechanism
+D8-D4,ES2004,UNRELATED,REFINES,REFINES,D8 provides the concrete physical and panel layout that operationalizes and refines the standardized internal engineering constraint of D4.
+D9-D4,ES2004,UNRELATED,UNSURE,UNRELATED,"Placing thumb controls on the lower panel is an external ergonomic layout choice, independent of the standardized internal engineering architecture"

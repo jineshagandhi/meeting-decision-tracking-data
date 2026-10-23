@@ -1,0 +1,196 @@
+{
+  "topic_list": [],
+  "general_query_list": [
+    {
+      "query": "Summarize the whole meeting.",
+      "answer": "Status meeting. AWS and the repository are set up, but the telematics vendor's new API (needed for odometer readings) slips to the second week of January, so the team agreed to move the Pune go-live from 15 January to 1 February rather than launch with manual readings. Because the back workshop bays at Pune have no signal, the team agreed the mechanics' Android app will work offline and sync later, with device-side timestamps and encrypted local storage. Operations will run an HR driver satisfaction survey at Pune in February, separate from FleetCare. Notifications for version one will be email only. Meera's idea of a reporting read replica was deferred until query load is known."
+    }
+  ],
+  "specific_query_list": [],
+  "meeting_transcripts": [
+    {
+      "speaker": "Priya",
+      "content": "Morning everyone. Let's go straight into status. Arjun?"
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Mixed news. The good part: the cloud account is set up, the repo's there, and we've got the work order screens working against a test database."
+    },
+    {
+      "speaker": "Priya",
+      "content": "And the bad part?"
+    },
+    {
+      "speaker": "Arjun",
+      "content": "The telematics vendor. We need their API to get odometer readings from the trucks, that's what drives the service intervals. They told us on Monday their new API version won't be available until the second week of January."
+    },
+    {
+      "speaker": "Tom",
+      "content": "So without it the system doesn't know when trucks are due?"
+    },
+    {
+      "speaker": "Arjun",
+      "content": "It can, if someone types the odometer readings in manually, but that's exactly the spreadsheet problem again."
+    },
+    {
+      "speaker": "Meera",
+      "content": "And my due-date logic depends on that feed. Without it the overdue list is guesswork."
+    },
+    {
+      "speaker": "Priya",
+      "content": "How much would that push us?"
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Realistically two weeks after they deliver, to integrate and test. So end of January."
+    },
+    {
+      "speaker": "Tom",
+      "content": "I'd rather go live late than go live with manual readings. The mechanics will lose trust on day one."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Okay. I don't love it, but I agree. So we're moving the Pune go-live from the fifteenth of January to the first of February. Everyone agree?"
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Yes, first of Feb is realistic."
+    },
+    {
+      "speaker": "Tom",
+      "content": "Agreed."
+    },
+    {
+      "speaker": "Meera",
+      "content": "Agreed."
+    },
+    {
+      "speaker": "Priya",
+      "content": "I'll tell the leadership group. Sara, anything that changes for you?"
+    },
+    {
+      "speaker": "Sara",
+      "content": "No, just the timing of the security review, I'll move it."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Next item. Tom, the workshop connectivity issue you raised."
+    },
+    {
+      "speaker": "Tom",
+      "content": "Yeah. I walked around Pune with a phone. The back workshop bays, where the heavy trucks go, have basically no signal. It's a metal shed."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "That's important. If the app needs a connection to mark a job done, they'll just stop using it."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "What I'd propose: the Android app works offline. It keeps the day's jobs on the phone, they can complete jobs and log parts with no signal, and it syncs when the phone gets a connection again."
+    },
+    {
+      "speaker": "Meera",
+      "content": "As long as the sync keeps the actual completion time, not the sync time. Otherwise my reports are wrong."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Yes, we'd timestamp on the device."
+    },
+    {
+      "speaker": "Sara",
+      "content": "The data on the phone needs to be encrypted. They're company devices with MDM, so that's manageable."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Cost to build?"
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Maybe a week and a half extra. It fits inside the new date."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Then we go with it. The mechanics' Android app will support offline mode and sync later."
+    },
+    {
+      "speaker": "Tom",
+      "content": "Good. That solves the shed."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Tom, you had something about a survey?"
+    },
+    {
+      "speaker": "Tom",
+      "content": "Yes, separate from FleetCare really. HR wants us to run a driver satisfaction survey, and we thought Pune first because it's the biggest depot. Probably in February."
+    },
+    {
+      "speaker": "Meera",
+      "content": "Paper or online?"
+    },
+    {
+      "speaker": "Tom",
+      "content": "Online, a simple form, plus paper for anyone who wants it."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Do we need to coordinate it with the pilot? I don't want people confused by two new things at once."
+    },
+    {
+      "speaker": "Tom",
+      "content": "Drivers don't use FleetCare, only mechanics do. So I think it's fine."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Okay. Then the driver survey runs at Pune in February, operations owns it, and it's not part of this project. Agreed?"
+    },
+    {
+      "speaker": "Tom",
+      "content": "Agreed."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Notifications. Tom, what did the depot leads say about SMS?"
+    },
+    {
+      "speaker": "Tom",
+      "content": "Honestly, mixed. The Pune lead said most mechanics would rather get an email to their work address, they all have one and it shows on the phone anyway. Nagpur didn't answer."
+    },
+    {
+      "speaker": "Sara",
+      "content": "Email is much simpler for me. No personal numbers."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "And email costs us nothing, we already have a mail service set up."
+    },
+    {
+      "speaker": "Priya",
+      "content": "So for version one, notifications are email only. We can look at SMS later if people ask for it."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Fine by me."
+    },
+    {
+      "speaker": "Tom",
+      "content": "Okay."
+    },
+    {
+      "speaker": "Meera",
+      "content": "One question about the data. For reporting, I wanted to put a reporting database next to the main one, maybe a separate PostgreSQL read replica."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Let's not decide that today. I want to see how heavy your queries are first."
+    },
+    {
+      "speaker": "Meera",
+      "content": "Fair, I'll send you some sample queries."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Okay, anything else? No? Thanks everyone."
+    }
+  ]
+}

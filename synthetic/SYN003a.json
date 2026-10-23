@@ -1,0 +1,163 @@
+{
+  "topic_list": [],
+  "general_query_list": [],
+  "specific_query_list": [],
+  "meeting_transcripts": [
+    {
+      "speaker": "Maya",
+      "content": "Morning, everyone. Did the rain finally stop near the depot?"
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Mostly. The road outside is still a mess."
+    },
+    {
+      "speaker": "Leena",
+      "content": "I nearly missed the bus because the driver couldn't find change."
+    },
+    {
+      "speaker": "Kabir",
+      "content": "Which is exactly why we're here, I suppose."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Right. RideWave is our pilot for making city bus fares easier to buy and validate."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "I'm handling the backend and ticket validation."
+    },
+    {
+      "speaker": "Leena",
+      "content": "I'll cover passenger research and accessibility."
+    },
+    {
+      "speaker": "Kabir",
+      "content": "I'm responsible for the depot equipment and driver workflow."
+    },
+    {
+      "speaker": "Nisha",
+      "content": "I'll handle operations and the pilot evaluation."
+    },
+    {
+      "speaker": "Maya",
+      "content": "We have six weeks before the proposed launch, so let's keep the first version manageable."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "First question: where will passengers buy tickets?"
+    },
+    {
+      "speaker": "Leena",
+      "content": "Some people won't have smartphones or bank cards."
+    },
+    {
+      "speaker": "Kabir",
+      "content": "We already have staffed kiosks at the main depot."
+    },
+    {
+      "speaker": "Nisha",
+      "content": "I'd rather not introduce a new payment device on every bus."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Then let's settle the initial sales channel. Tickets will be sold exclusively through staffed kiosks during the pilot."
+    },
+    {
+      "speaker": "Leena",
+      "content": "We should test whether older passengers can use the kiosk without assistance."
+    },
+    {
+      "speaker": "Kabir",
+      "content": "I can arrange a volunteer to observe a few purchases."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Good. What about the pilot launch?"
+    },
+    {
+      "speaker": "Nisha",
+      "content": "The depot team is available in the second week of November."
+    },
+    {
+      "speaker": "Kabir",
+      "content": "The central depot has a covered waiting area we can use for the demonstration."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Let's launch the pilot on 12 November at Central Depot."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "I'll need the expected passenger load to size the validation service."
+    },
+    {
+      "speaker": "Nisha",
+      "content": "We shouldn't treat the busiest festival day as a normal day."
+    },
+    {
+      "speaker": "Leena",
+      "content": "Could we start with forty passengers on each test bus?"
+    },
+    {
+      "speaker": "Kabir",
+      "content": "Forty is manageable for the first supervised runs."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Agreed, the test will be capped at 40 passengers per bus."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "What does a passenger show the conductor after paying?"
+    },
+    {
+      "speaker": "Leena",
+      "content": "A printed ticket is familiar and doesn't require a charged phone."
+    },
+    {
+      "speaker": "Kabir",
+      "content": "We can print numbered thermal-paper tickets at the depot."
+    },
+    {
+      "speaker": "Maya",
+      "content": "For the initial version, a printed paper ticket will be the accepted proof of fare."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "The validator should still work if the depot connection drops."
+    },
+    {
+      "speaker": "Nisha",
+      "content": "We can't stop boarding just because the network is slow."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "I'll make validation work offline and retain the latest 200 scan records locally."
+    },
+    {
+      "speaker": "Leena",
+      "content": "Are we collecting passenger names for the evaluation?"
+    },
+    {
+      "speaker": "Nisha",
+      "content": "Let's not collect names unless we can explain why they're necessary."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Agreed, but we haven't settled the exact anonymous reporting format. We'll return to that."
+    },
+    {
+      "speaker": "Kabir",
+      "content": "I'll check whether the printer supplier can deliver before the demonstration."
+    },
+    {
+      "speaker": "Leena",
+      "content": "Can we also put a suggestion box beside the kiosk?"
+    },
+    {
+      "speaker": "Maya",
+      "content": "That's worth considering, but we don't have an owner for it yet."
+    }
+  ]
+}

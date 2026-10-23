@@ -1,0 +1,204 @@
+{
+  "series_id": "SYN001",
+  "provenance": "Written for this project with an LLM writing assistant (not Gemini, the model under evaluation); ground truth fixed before the system was run.",
+  "decisions": [
+    {
+      "gold_id": "G1",
+      "meeting": "a",
+      "sequence_index": 1,
+      "text": "Host FleetCare on AWS.",
+      "anchor_turn": 19
+    },
+    {
+      "gold_id": "G2",
+      "meeting": "a",
+      "sequence_index": 1,
+      "text": "Pilot goes live at the Pune depot on 15 January.",
+      "anchor_turn": 36
+    },
+    {
+      "gold_id": "G3",
+      "meeting": "a",
+      "sequence_index": 1,
+      "text": "PostgreSQL is the primary database for the scheduling service.",
+      "anchor_turn": 27
+    },
+    {
+      "gold_id": "G4",
+      "meeting": "a",
+      "sequence_index": 1,
+      "text": "The mechanics' app is Android-only in the first release.",
+      "anchor_turn": 47
+    },
+    {
+      "gold_id": "G5",
+      "meeting": "b",
+      "sequence_index": 2,
+      "text": "Move the Pune go-live from 15 January to 1 February.",
+      "anchor_turn": 10
+    },
+    {
+      "gold_id": "G6",
+      "meeting": "b",
+      "sequence_index": 2,
+      "text": "The mechanics' Android app supports offline mode and syncs later.",
+      "anchor_turn": 25
+    },
+    {
+      "gold_id": "G7",
+      "meeting": "b",
+      "sequence_index": 2,
+      "text": "Operations runs a separate driver satisfaction survey at Pune in February.",
+      "anchor_turn": 33
+    },
+    {
+      "gold_id": "G8",
+      "meeting": "b",
+      "sequence_index": 2,
+      "text": "Notifications are email only for version one.",
+      "anchor_turn": 39
+    },
+    {
+      "gold_id": "G9",
+      "meeting": "c",
+      "sequence_index": 3,
+      "text": "Stay on AWS but deploy everything, including backups, in the Mumbai region.",
+      "anchor_turn": 8
+    },
+    {
+      "gold_id": "G10",
+      "meeting": "c",
+      "sequence_index": 3,
+      "text": "Store work orders for the scheduling service in MongoDB.",
+      "anchor_turn": 18
+    },
+    {
+      "gold_id": "G11",
+      "meeting": "c",
+      "sequence_index": 3,
+      "text": "The 1 February go-live is confirmed.",
+      "anchor_turn": 22
+    },
+    {
+      "gold_id": "G12",
+      "meeting": "c",
+      "sequence_index": 3,
+      "text": "The customer service-status portal is a responsive website, not a native app.",
+      "anchor_turn": 30
+    },
+    {
+      "gold_id": "G13",
+      "meeting": "d",
+      "sequence_index": 4,
+      "text": "The mechanics' app supports both Android and iOS in release one, built in Flutter.",
+      "anchor_turn": 8
+    },
+    {
+      "gold_id": "G14",
+      "meeting": "d",
+      "sequence_index": 4,
+      "text": "Hosting stays on AWS in the Mumbai region.",
+      "anchor_turn": 14
+    },
+    {
+      "gold_id": "G15",
+      "meeting": "d",
+      "sequence_index": 4,
+      "text": "Job assignment notifications to mechanics are sent by SMS.",
+      "anchor_turn": 21
+    },
+    {
+      "gold_id": "G16",
+      "meeting": "d",
+      "sequence_index": 4,
+      "text": "Approve two contract mechanics at Pune for February and March.",
+      "anchor_turn": 27
+    }
+  ],
+  "relations": [
+    {
+      "later": "G5",
+      "earlier": "G2",
+      "relation": "REVISED",
+      "rationale": "go-live date changed, change acknowledged"
+    },
+    {
+      "later": "G6",
+      "earlier": "G4",
+      "relation": "REFINES",
+      "rationale": "keeps Android app, adds offline mode"
+    },
+    {
+      "later": "G9",
+      "earlier": "G1",
+      "relation": "REFINES",
+      "rationale": "keeps AWS, adds region constraint"
+    },
+    {
+      "later": "G10",
+      "earlier": "G3",
+      "relation": "CONTRADICTORY",
+      "rationale": "MongoDB vs PostgreSQL for the same service; earlier decision never mentioned"
+    },
+    {
+      "later": "G11",
+      "earlier": "G5",
+      "relation": "SAME",
+      "rationale": "1 February re-confirmed"
+    },
+    {
+      "later": "G11",
+      "earlier": "G2",
+      "relation": "REVISED",
+      "rationale": "relative to 15 January the date has changed"
+    },
+    {
+      "later": "G13",
+      "earlier": "G4",
+      "relation": "REVISED",
+      "rationale": "Android-only explicitly changed to Android + iOS"
+    },
+    {
+      "later": "G14",
+      "earlier": "G9",
+      "relation": "SAME",
+      "rationale": "AWS Mumbai re-confirmed"
+    },
+    {
+      "later": "G14",
+      "earlier": "G1",
+      "relation": "REFINES",
+      "rationale": "keeps AWS, restates the Mumbai region detail"
+    },
+    {
+      "later": "G15",
+      "earlier": "G8",
+      "relation": "CONTRADICTORY",
+      "rationale": "SMS vs email-only; earlier decision never mentioned"
+    }
+  ],
+  "ambiguous": [
+    {
+      "later": "G13",
+      "earlier": "G6",
+      "note": "platform change to the same app; offline mode neither kept nor dropped explicitly"
+    }
+  ],
+  "non_decisions": [
+    {
+      "meeting": "a",
+      "text": "SMS alerts for job assignment (parked)",
+      "anchor_turn": 53
+    },
+    {
+      "meeting": "b",
+      "text": "PostgreSQL read replica for reporting (deferred)",
+      "anchor_turn": 43
+    },
+    {
+      "meeting": "d",
+      "text": "Reporting dashboard for depot managers (deferred)",
+      "anchor_turn": 30
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite the paper below, the AMI Meeting Corpus and QMSum."
+title: "Meeting decision tracking data: real decision pairs and synthetic series SYN001-SYN003"
+type: dataset
+version: 1.0.0
+date-released: 2026-10-23
+license: CC-BY-4.0
+authors:
+  - given-names: Jinesha
+    family-names: Gandhi
+  - given-names: Gaurvi
+    family-names: Jain
+  - given-names: Tanmay
+    family-names: Dhumal
+  - given-names: Milind
+    family-names: Muravane
+  - given-names: Devendra
+    family-names: Joshi
+preferred-citation:
+  type: unpublished
+  title: "Evidence-Grounded Cross-Meeting Decision Tracking and Organizational Memory Using Large Language Models"
+  authors:
+    - given-names: Jinesha
+      family-names: Gandhi
+    - given-names: Gaurvi
+      family-names: Jain
+    - given-names: Tanmay
+      family-names: Dhumal
+    - given-names: Milind
+      family-names: Muravane
+    - given-names: Devendra
+      family-names: Joshi
+  year: 2026
+  institution:
+    name: "Dr. Vishwanath Karad MIT World Peace University, Pune"
+references:
+  - type: conference-paper
+    title: "The AMI meeting corpus: A pre-announcement"
+    authors:
+      - given-names: Jean
+        family-names: Carletta
+      - name: "et al."
+    collection-title: "Machine Learning for Multimodal Interaction (MLMI 2005), LNCS 3869"
+    publisher:
+      name: Springer
+    year: 2006
+    start: 28
+    end: 39
+  - type: conference-paper
+    title: "QMSum: A New Benchmark for Query-based Multi-domain Meeting Summarization"
+    authors:
+      - given-names: Ming
+        family-names: Zhong
+      - name: "et al."
+    collection-title: "Proceedings of NAACL-HLT 2021"
+    year: 2021
+    start: 5905
+    end: 5921
+    url: "https://github.com/Yale-LILY/QMSum"

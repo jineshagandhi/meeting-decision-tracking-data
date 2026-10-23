@@ -1,0 +1,39 @@
+Maya: Morning, everyone. Did the rain finally stop near the depot?
+Arjun: Mostly. The road outside is still a mess.
+Leena: I nearly missed the bus because the driver couldn't find change.
+Kabir: Which is exactly why we're here, I suppose.
+Maya: Right. RideWave is our pilot for making city bus fares easier to buy and validate.
+Arjun: I'm handling the backend and ticket validation.
+Leena: I'll cover passenger research and accessibility.
+Kabir: I'm responsible for the depot equipment and driver workflow.
+Nisha: I'll handle operations and the pilot evaluation.
+Maya: We have six weeks before the proposed launch, so let's keep the first version manageable.
+Arjun: First question: where will passengers buy tickets?
+Leena: Some people won't have smartphones or bank cards.
+Kabir: We already have staffed kiosks at the main depot.
+Nisha: I'd rather not introduce a new payment device on every bus.
+Maya: Then let's settle the initial sales channel. Tickets will be sold exclusively through staffed kiosks during the pilot. [[G1]]
+Leena: We should test whether older passengers can use the kiosk without assistance.
+Kabir: I can arrange a volunteer to observe a few purchases.
+Maya: Good. What about the pilot launch?
+Nisha: The depot team is available in the second week of November.
+Kabir: The central depot has a covered waiting area we can use for the demonstration.
+Maya: Let's launch the pilot on 12 November at Central Depot. [[G2]]
+Arjun: I'll need the expected passenger load to size the validation service.
+Nisha: We shouldn't treat the busiest festival day as a normal day.
+Leena: Could we start with forty passengers on each test bus?
+Kabir: Forty is manageable for the first supervised runs.
+Maya: Agreed, the test will be capped at 40 passengers per bus. [[G3]]
+Arjun: What does a passenger show the conductor after paying?
+Leena: A printed ticket is familiar and doesn't require a charged phone.
+Kabir: We can print numbered thermal-paper tickets at the depot.
+Maya: For the initial version, a printed paper ticket will be the accepted proof of fare. [[G4]]
+Arjun: The validator should still work if the depot connection drops.
+Nisha: We can't stop boarding just because the network is slow.
+Arjun: I'll make validation work offline and retain the latest 200 scan records locally. [[G5]]
+Leena: Are we collecting passenger names for the evaluation?
+Nisha: Let's not collect names unless we can explain why they're necessary.
+Maya: Agreed, but we haven't settled the exact anonymous reporting format. We'll return to that.
+Kabir: I'll check whether the printer supplier can deliver before the demonstration.
+Leena: Can we also put a suggestion box beside the kiosk? [[N1]]
+Maya: That's worth considering, but we don't have an owner for it yet.

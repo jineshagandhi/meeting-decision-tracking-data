@@ -1,0 +1,21 @@
+gold_id,meeting,text
+G1,a,Appointment reminders are sent by SMS two days before the appointment.
+G2,a,The app launches at the Andheri clinic on 1 March.
+G3,a,Online payments go through Razorpay.
+G4,a,Patients can book appointments up to 30 days ahead.
+G5,a,The app supports English and Hindi at launch.
+G6,a,Video consultations are out of scope for version 1.
+G7,b,The Andheri launch moves to 15 March.
+G8,b,Front desk staff check every Hindi screen before launch.
+G9,b,The hospital's existing doctor schedule system is the source of truth for appointment slots.
+G10,b,The front desk can cancel appointments on a patient's behalf.
+G11,c,Staff receive their shift roster by email every Friday.
+G12,c,The booking window is extended from 30 to 60 days.
+G13,c,The 15 March launch at Andheri stands.
+G14,c,A second check-in kiosk is installed at the Andheri clinic.
+G15,c,"Doctors can block emergency slots in the app, and the blocks sync back to the schedule system."
+G16,d,Card payments run on PayU.
+G17,d,Patients get a WhatsApp message the evening before their appointment.
+G18,d,Video consultations are piloted for follow-up visits in version 1.
+G19,d,"When the front desk cancels for a patient, the patient's verbal consent is noted in the app."
+G20,d,The 15 March Andheri go-live is confirmed again.

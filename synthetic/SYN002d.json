@@ -1,0 +1,119 @@
+{
+  "topic_list": [],
+  "general_query_list": [],
+  "specific_query_list": [],
+  "meeting_transcripts": [
+    {
+      "speaker": "Anita",
+      "content": "Morning. Sofia's on leave and Dr. Mehta is in theatre, so it's Ravi, Kiran, me, and Neha from marketing joining us today."
+    },
+    {
+      "speaker": "Neha",
+      "content": "Hi everyone, thanks for having me."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "Welcome, Neha."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Ravi, launch status?"
+    },
+    {
+      "speaker": "Ravi",
+      "content": "Good. The Andheri go-live on the fifteenth of March is confirmed again. The front desk finished testing yesterday."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Excellent. So the fifteenth of March stays."
+    },
+    {
+      "speaker": "Neha",
+      "content": "Can I ask about reminders? Our patient survey says almost everyone uses WhatsApp now."
+    },
+    {
+      "speaker": "Kiran",
+      "content": "That's true. Even the older patients have it. Their children set it up for them."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "The WhatsApp business API is ready on our side. We could send the message the evening before."
+    },
+    {
+      "speaker": "Neha",
+      "content": "The evening before works best. People remember what they hear the night before."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Okay, patients get a WhatsApp message the evening before their appointment."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "I'll set up the message template this week."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Payments. Ravi, you've been doing the integration?"
+    },
+    {
+      "speaker": "Ravi",
+      "content": "Yes. The payment SDK we're integrating is PayU. Their card flow is quicker, fewer screens for the patient."
+    },
+    {
+      "speaker": "Kiran",
+      "content": "Fine with me, as long as patients can still pay at the desk."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Okay, card payments run on PayU."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "Another thing. A lot of follow-up visits are just \"show me your reports\". We could do those over video."
+    },
+    {
+      "speaker": "Kiran",
+      "content": "Patients who live far away would love that."
+    },
+    {
+      "speaker": "Neha",
+      "content": "It would be a nice story for the launch, too."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Let's do it. We pilot video consultations for follow-up visits in version one."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "I'll start on it after launch week."
+    },
+    {
+      "speaker": "Kiran",
+      "content": "About cancellations by phone: we need to record that the patient agreed."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "We can add a field where the staff note that the patient gave verbal consent."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Good. When the front desk cancels for a patient, they note the patient's verbal consent in the app."
+    },
+    {
+      "speaker": "Neha",
+      "content": "Will there be posters at the clinic for the launch?"
+    },
+    {
+      "speaker": "Kiran",
+      "content": "The Andheri manager would like that. The waiting room has space."
+    },
+    {
+      "speaker": "Neha",
+      "content": "I'll bring some designs next time."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Thanks, everyone. Good meeting."
+    }
+  ]
+}

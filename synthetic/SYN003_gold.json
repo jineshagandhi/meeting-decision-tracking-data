@@ -1,0 +1,232 @@
+{
+  "series_id": "SYN003",
+  "provenance": "This synthetic meeting-analysis research dataset was written by OpenAI's ChatGPT, model GPT-6, on 11 October 2026. RideWave, its project team, meeting transcripts, decisions, and evaluation labels are fictional and were created for this dataset. The transcripts are designed to test cross-meeting decision tracking, explicit revisions, unacknowledged contradictions, confirmations, refinements, and unrelated decisions. [Added by the project team when saving the reply:] The author was given only evaluation/synthetic/SYN003_PROMPT.md, in a new chat with no project files, and had no access to the system or its method. Its reply is used as given, with only the edits the author itself asked for in its reply: the tag [[N1]] appended to Leena's line \"Can we also put a suggestion box beside the kiosk?\" (meeting a) and [[N2]] to Arjun's line \"What if someone has a problem after the desk closes?\" (meeting b). Section-number headings (\"2. meeting_b.txt\" etc.) were removed when splitting the reply into files. The author's optional suggestion to remove the suggestion-box follow-up in meeting b was not applied (the transcript is unchanged). No label was changed. [Self-review round, same chat, 11 October 2026:] The author was asked a neutral request (written by the project team, pointing at no specific pair): re-check every relations.csv row against the definitions; make each meeting internally consistent; list missing related pairs; check the look-alike requirement; give its model name. The author kept 11 rows, rewrote G15 (meeting d decided both 'NFC smartcard is the sole proof of fare' and 'QR codes remain the accepted format'), reworded G13, and added G18 (look-alike) and G19 with the contradictions G19-G1 and G19-G10. Its corrected files replace the first version unchanged (meeting a and b were identical to the first version). Note for the record: one look-alike pair the author lists, G17-G18, is within one meeting and so is not a scored cross-meeting pair; G8-G18 is. The author reported its model as GPT-6.",
+  "decisions": [
+    {
+      "gold_id": "G1",
+      "meeting": "a",
+      "sequence_index": 1,
+      "text": "During the pilot, tickets will be sold exclusively through staffed kiosks.",
+      "anchor_turn": 14
+    },
+    {
+      "gold_id": "G2",
+      "meeting": "a",
+      "sequence_index": 1,
+      "text": "The pilot will launch on 12 November at Central Depot.",
+      "anchor_turn": 20
+    },
+    {
+      "gold_id": "G3",
+      "meeting": "a",
+      "sequence_index": 1,
+      "text": "Each test bus will be capped at 40 passengers.",
+      "anchor_turn": 25
+    },
+    {
+      "gold_id": "G4",
+      "meeting": "a",
+      "sequence_index": 1,
+      "text": "Printed paper tickets will be accepted as proof of fare.",
+      "anchor_turn": 29
+    },
+    {
+      "gold_id": "G5",
+      "meeting": "a",
+      "sequence_index": 1,
+      "text": "Offline validation will retain the latest 200 scan records locally.",
+      "anchor_turn": 32
+    },
+    {
+      "gold_id": "G6",
+      "meeting": "b",
+      "sequence_index": 2,
+      "text": "The launch will move from the date agreed at kickoff to 19 November, retaining Central Depot.",
+      "anchor_turn": 8
+    },
+    {
+      "gold_id": "G7",
+      "meeting": "b",
+      "sequence_index": 2,
+      "text": "The pilot limit will increase from 40 to 50 passengers per bus.",
+      "anchor_turn": 14
+    },
+    {
+      "gold_id": "G8",
+      "meeting": "b",
+      "sequence_index": 2,
+      "text": "Passenger-facing kiosk screens will support Marathi and English.",
+      "anchor_turn": 17
+    },
+    {
+      "gold_id": "G9",
+      "meeting": "b",
+      "sequence_index": 2,
+      "text": "The pilot help desk will operate from 8 a.m. to 5 p.m.",
+      "anchor_turn": 23
+    },
+    {
+      "gold_id": "G10",
+      "meeting": "c",
+      "sequence_index": 3,
+      "text": "Passengers will be allowed to pay by tapping their phones on the bus during the pilot.",
+      "anchor_turn": 7
+    },
+    {
+      "gold_id": "G11",
+      "meeting": "c",
+      "sequence_index": 3,
+      "text": "QR codes will replace printed paper tickets as the accepted ticket format.",
+      "anchor_turn": 13
+    },
+    {
+      "gold_id": "G12",
+      "meeting": "c",
+      "sequence_index": 3,
+      "text": "Offline validation will remain enabled, with local capacity increased from 200 to 500 scan records.",
+      "anchor_turn": 22
+    },
+    {
+      "gold_id": "G13",
+      "meeting": "c",
+      "sequence_index": 3,
+      "text": "The pilot help desk will operate 24 hours a day, seven days a week.",
+      "anchor_turn": 27
+    },
+    {
+      "gold_id": "G14",
+      "meeting": "d",
+      "sequence_index": 4,
+      "text": "The launch is confirmed for 19 November at Central Depot.",
+      "anchor_turn": 6
+    },
+    {
+      "gold_id": "G15",
+      "meeting": "d",
+      "sequence_index": 4,
+      "text": "A loan NFC reader will be tested for equipment compatibility at the depot entrance; it will not determine the accepted fare format.",
+      "anchor_turn": 10
+    },
+    {
+      "gold_id": "G16",
+      "meeting": "d",
+      "sequence_index": 4,
+      "text": "QR codes remain the accepted ticket format for the pilot.",
+      "anchor_turn": 16
+    },
+    {
+      "gold_id": "G17",
+      "meeting": "d",
+      "sequence_index": 4,
+      "text": "Pilot announcements will be provided in Marathi and English, matching the kiosk languages.",
+      "anchor_turn": 21
+    },
+    {
+      "gold_id": "G18",
+      "meeting": "d",
+      "sequence_index": 4,
+      "text": "The driver training checklist will be available in Marathi and English.",
+      "anchor_turn": 35
+    },
+    {
+      "gold_id": "G19",
+      "meeting": "d",
+      "sequence_index": 4,
+      "text": "All pilot fares will be collected in cash as passengers board, with drivers handling the money.",
+      "anchor_turn": 38
+    }
+  ],
+  "relations": [
+    {
+      "later": "G6",
+      "earlier": "G2",
+      "relation": "REVISED",
+      "rationale": "The group explicitly changes the launch date from 12 November to 19 November while retaining Central Depot."
+    },
+    {
+      "later": "G7",
+      "earlier": "G3",
+      "relation": "REVISED",
+      "rationale": "The group explicitly replaces the earlier limit of 40 passengers with 50."
+    },
+    {
+      "later": "G10",
+      "earlier": "G1",
+      "relation": "CONTRADICTORY",
+      "rationale": "Kiosk-exclusive sales conflict with onboard phone payment. The kiosk-only plan is mentioned in meeting B but is not changed before the conflicting decision in meeting C."
+    },
+    {
+      "later": "G11",
+      "earlier": "G4",
+      "relation": "REVISED",
+      "rationale": "The group explicitly replaces the previously selected printed-paper proof with QR tickets."
+    },
+    {
+      "later": "G12",
+      "earlier": "G5",
+      "relation": "REFINES",
+      "rationale": "Offline validation and local retention remain, while the record capacity increases from 200 to 500 scans."
+    },
+    {
+      "later": "G13",
+      "earlier": "G9",
+      "relation": "CONTRADICTORY",
+      "rationale": "The later decision makes the help desk available around the clock, conflicting with the earlier 8 a.m.–5 p.m. hours without acknowledging the earlier decision."
+    },
+    {
+      "later": "G14",
+      "earlier": "G2",
+      "relation": "REVISED",
+      "rationale": "The launch date changes from 12 November to 19 November, and the later meeting explicitly confirms the new date."
+    },
+    {
+      "later": "G14",
+      "earlier": "G6",
+      "relation": "SAME",
+      "rationale": "The later meeting reconfirms the 19 November launch at Central Depot agreed in meeting B."
+    },
+    {
+      "later": "G16",
+      "earlier": "G4",
+      "relation": "REVISED",
+      "rationale": "The QR decision replaces the original printed-paper format."
+    },
+    {
+      "later": "G16",
+      "earlier": "G11",
+      "relation": "SAME",
+      "rationale": "The later meeting explicitly reconfirms QR codes as the accepted ticket format."
+    },
+    {
+      "later": "G17",
+      "earlier": "G8",
+      "relation": "REFINES",
+      "rationale": "The Marathi-and-English language choice is retained and extended from kiosk screens to pilot announcements."
+    },
+    {
+      "later": "G19",
+      "earlier": "G1",
+      "relation": "CONTRADICTORY",
+      "rationale": "Kiosk-exclusive sales conflict with collecting all fares in cash as passengers board. The earlier decision is not acknowledged when the later choice is made."
+    },
+    {
+      "later": "G19",
+      "earlier": "G10",
+      "relation": "CONTRADICTORY",
+      "rationale": "Collecting all fares in cash conflicts with the earlier decision to allow passengers to pay by tapping their phones; the earlier decision is not acknowledged."
+    }
+  ],
+  "ambiguous": [],
+  "non_decisions": [
+    {
+      "meeting": "a",
+      "text": "Add a suggestion box beside the kiosk; the idea is raised but not approved.",
+      "anchor_turn": 37
+    },
+    {
+      "meeting": "b",
+      "text": "Provide after-hours assistance through a depot supervisor or another contact; the idea is discussed but left unresolved.",
+      "anchor_turn": 24
+    }
+  ]
+}

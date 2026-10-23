@@ -1,0 +1,39 @@
+Maya: Good morning. Everyone is here today, and we have the pilot readiness review.
+Kabir: The central depot has confirmed the covered area booking.
+Leena: I tested the bilingual kiosk screens with six volunteers.
+Arjun: I fixed the QR validation bug that caused duplicate scans to appear successful.
+Maya: First, are we still using 19 November at Central Depot?
+Kabir: Yes, the transport team has reserved the space.
+Maya: Then let's confirm the launch on 19 November at Central Depot. [[G14]]
+Leena: The volunteer feedback was mostly positive.
+Arjun: One volunteer asked if a physical card would be faster than displaying a code.
+Kabir: A contactless smartcard could be scanned at the gate without printing anything.
+Maya: Let's arrange a loan NFC reader for equipment compatibility testing at the depot entrance; it will not determine the accepted fare format. [[G15]]
+Arjun: I'll need to check whether the reader can connect to our test equipment.
+Kabir: I can ask the equipment supplier for a loan unit.
+Leena: Do we have enough time to test both the card and the QR code?
+Maya: We need a single format in the pilot build, so please flag any supplier delay immediately.
+Arjun: The QR build is ready for another test, and the offline cache now holds 500 scan records.
+Maya: To be clear, we're keeping the QR ticket decision from the last meeting. QR codes remain the accepted ticket format for the pilot. [[G16]]
+Kabir: I'll check whether the NFC reader can be returned after the equipment test.
+Leena: That sounds sensible, but we should not confuse the volunteers with two ticket formats.
+Maya: Agreed on avoiding mixed instructions. We need to settle the passenger messaging next.
+Leena: The kiosk screens already offer Marathi and English.
+Maya: Let's also provide pilot announcements in Marathi and English, matching the two kiosk languages. [[G17]]
+Arjun: Are we still using the signed QR payload in offline mode?
+Maya: Yes, keep the offline validation approach; we'll review the security test results before launch.
+Kabir: The printer supplier says the old thermal paper order can be cancelled.
+Leena: Did we ever decide on the suggestion box?
+Maya: No, it remains outside the pilot scope.
+Arjun: The sunlight test passed, though one older phone had trouble focusing.
+Leena: I'll include that limitation in the volunteer briefing.
+Kabir: Who will handle the first morning's queue?
+Maya: I'll coordinate with the depot supervisor and send the rota by Friday.
+Arjun: I still need the final anonymous reporting format.
+Maya: Let's record it as a follow-up; we haven't approved a format yet.
+Leena: Fine. At least the pilot scope is much clearer now.
+Kabir: The driver training checklist still needs to be prepared.
+Maya: The driver training checklist will be available in Marathi and English. [[G18]]
+Arjun: One driver asked whether passengers could simply hand over cash while boarding.
+Kabir: That would be familiar to many regular passengers.
+Maya: We'll collect all pilot fares in cash as passengers board, with drivers handling the money. [[G19]]

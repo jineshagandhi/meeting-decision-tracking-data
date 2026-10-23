@@ -1,0 +1,34 @@
+Maya: Quick update before we start: Kabir is absent because he's visiting the east depot.
+Leena: I brought the passenger feedback sheets.
+Arjun: I also have the first backend test results.
+Maya: Let's hear the feedback first.
+Leena: Several younger commuters asked whether they could pay directly while boarding.
+Arjun: Technically, we could accept a phone tap and return a signed payment token.
+Leena: That would remove the need to queue before boarding.
+Maya: All right, let's allow passengers to pay by tapping their phones on the bus during the pilot. [[G10]]
+Arjun: I'll need to add the onboard payment event to the API.
+Leena: We should make the payment confirmation readable, not just a vibration.
+Maya: Put that in the usability backlog; we haven't agreed on the exact confirmation design.
+Arjun: The ticket format is the other issue. Our printer prototype uses a lot of ink.
+Leena: We discussed the paper ticket at kickoff, but a QR ticket could be cheaper to verify and easier to audit.
+Maya: We've decided to move away from the printed-paper proof we selected earlier. The accepted ticket format will be a QR code. [[G11]]
+Arjun: I can generate signed QR codes and validate them offline.
+Leena: Please make sure screenshots can't be reused on multiple buses.
+Arjun: I'll investigate replay prevention, but I can't promise a perfect solution by launch.
+Maya: Keep that as a technical risk until we test it.
+Arjun: The offline storage limit also needs attention.
+Maya: What happens if a bus has a long shift without connectivity?
+Arjun: The current 200-record cache may fill before the next sync.
+Leena: We should retain more records but avoid storing unnecessary passenger information.
+Maya: Keep offline validation, and raise the local record capacity from 200 to 500 scans. [[G12]]
+Arjun: I'll store only the scan reference, timestamp, and validation outcome.
+Leena: What did the help desk receive after yesterday's trial?
+Maya: Three passengers called after closing time because their tickets were rejected.
+Leena: We could have a rotating contact available around the clock.
+Maya: Let's make the pilot help desk operate 24 hours a day, seven days a week. [[G13]]
+Arjun: Is that a staffed desk or a telephone contact?
+Maya: I haven't worked out the staffing arrangement yet.
+Leena: Then let's document the service expectation and settle the rota separately.
+Arjun: The QR prototype works on my phone, but I haven't tried it in bright sunlight.
+Leena: I can arrange a short outdoor usability test.
+Maya: Do that before we call the ticket format ready.

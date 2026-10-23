@@ -1,0 +1,148 @@
+{
+  "topic_list": [],
+  "general_query_list": [
+    {
+      "query": "Summarize the whole meeting.",
+      "answer": "Technical meeting chaired by Arjun in Priya's absence. Legal classified maintenance records as personal data that must stay in India, so the team agreed to keep AWS but deploy everything, including backups, in the Mumbai region. Because checklists vary by truck model, the engineering team decided to store work orders for the scheduling service in MongoDB, with a nightly export for reporting. Early access to the telematics API works and the 1 February go-live was confirmed. For fleet customers who want to see service status, the team agreed on a responsive web portal rather than a native iPhone app, as a later phase."
+    }
+  ],
+  "specific_query_list": [],
+  "meeting_transcripts": [
+    {
+      "speaker": "Arjun",
+      "content": "Priya's out today, she asked me to run this one. Let's keep it quick. First, Sara has something on hosting."
+    },
+    {
+      "speaker": "Sara",
+      "content": "Yes. Legal came back on the maintenance records. Because they include driver names and incident reports, they count as personal data, and our policy now is that personal data stays in India. So FleetCare can't just sit in any region."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "We're currently in US East because that's the default the account came with."
+    },
+    {
+      "speaker": "Sara",
+      "content": "That would have to change before the pilot."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Mumbai is the obvious one. ap-south-1. Everything we use is available there."
+    },
+    {
+      "speaker": "Meera",
+      "content": "Latency from Pune is better too."
+    },
+    {
+      "speaker": "Tom",
+      "content": "Does moving it delay anything?"
+    },
+    {
+      "speaker": "Arjun",
+      "content": "A couple of days. We haven't got production data in yet, so now's the time."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "So, we stay with AWS, but everything gets deployed in the Mumbai region. Sara, does that satisfy legal?"
+    },
+    {
+      "speaker": "Sara",
+      "content": "Yes, as long as backups also stay in Mumbai."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Backups too. Okay, done."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Second thing. The work orders. My team's been building the job templates, and every truck model has a different checklist. A Tata has a different service checklist from an Ashok Leyland, and the trailers are different again. The fields keep changing."
+    },
+    {
+      "speaker": "Meera",
+      "content": "That's going to be messy to report on."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Right. So the team's view is that we store work orders in MongoDB. Each work order is one document with whatever checklist it needs. It's just simpler for this data."
+    },
+    {
+      "speaker": "Tom",
+      "content": "Whatever makes it faster, honestly."
+    },
+    {
+      "speaker": "Meera",
+      "content": "Can I still query it?"
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Yes, there's a connector, and we'll export nightly to your reporting side."
+    },
+    {
+      "speaker": "Meera",
+      "content": "Okay, then fine by me."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Alright, work orders go in MongoDB for the scheduling service then. I'll get the team started on the data model this week."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Next, the timeline. Where are we?"
+    },
+    {
+      "speaker": "Arjun",
+      "content": "The telematics vendor sent us early access to the new API on Tuesday. It works. So we're still on track for the first of February, no change there."
+    },
+    {
+      "speaker": "Tom",
+      "content": "Good, I've told the Pune depot manager February first."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Yes, February first stands. Confirmed."
+    },
+    {
+      "speaker": "Meera",
+      "content": "The data import is about seventy percent done. The Pune spreadsheets were the worst."
+    },
+    {
+      "speaker": "Tom",
+      "content": "Sorry."
+    },
+    {
+      "speaker": "Meera",
+      "content": "Ha, not your fault."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "One more. Customer service asked whether customers could see their trucks' service status, the fleet customers who lease from us. They wanted an iPhone app."
+    },
+    {
+      "speaker": "Tom",
+      "content": "Customers on iPhones, sure, a lot of them."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "I don't want to build a native iOS app for that. A customer portal that's a responsive website works on iPhones and anything else."
+    },
+    {
+      "speaker": "Sara",
+      "content": "Customer-facing means a separate login and a separate review from me."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Understood. So the customer service-status portal is web-based and responsive, no native app. It's a later phase, but let's agree the direction."
+    },
+    {
+      "speaker": "Meera",
+      "content": "Agreed."
+    },
+    {
+      "speaker": "Tom",
+      "content": "Yep."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Okay, thanks. I'll send notes to Priya."
+    }
+  ]
+}

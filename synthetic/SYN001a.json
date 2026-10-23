@@ -1,0 +1,248 @@
+{
+  "topic_list": [],
+  "general_query_list": [
+    {
+      "query": "Summarize the whole meeting.",
+      "answer": "Kickoff of FleetCare, a maintenance scheduling platform for the company's truck depots. Operations described missed services and 41 unplanned breakdowns last quarter. The team agreed to host on AWS (already vendor-assessed), to use PostgreSQL as the primary database for the scheduling service, to pilot at the Pune depot with go-live on 15 January, and to build the mechanics' app for Android only in the first release since all company phones are Android. Tom's idea of SMS alerts was parked pending input from depot leads."
+    }
+  ],
+  "specific_query_list": [],
+  "meeting_transcripts": [
+    {
+      "speaker": "Priya",
+      "content": "Okay, I think everyone's here. Let's get started, thanks for making time. So this is the kickoff for FleetCare, the maintenance scheduling platform."
+    },
+    {
+      "speaker": "Tom",
+      "content": "Morning."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Quick round of intros for Sara since she's new to the group?"
+    },
+    {
+      "speaker": "Sara",
+      "content": "Yeah, hi, I'm Sara, I handle security and compliance. Mostly the audits and vendor reviews."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Arjun, engineering lead. I'll own the build."
+    },
+    {
+      "speaker": "Meera",
+      "content": "Meera, data and analytics. I'll be doing the reporting side and, later, the breakdown predictions."
+    },
+    {
+      "speaker": "Tom",
+      "content": "And Tom, operations. Basically I'm the one whose mechanics are going to use this thing every day, so, no pressure."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Right. So the problem. Tom, do you want to describe it?"
+    },
+    {
+      "speaker": "Tom",
+      "content": "Sure. Right now maintenance is scheduled on a shared spreadsheet per depot. Trucks miss services, parts aren't ordered on time, and when a truck breaks down on the highway we lose two, three days. Last quarter we had forty-one unplanned breakdowns across the four depots."
+    },
+    {
+      "speaker": "Meera",
+      "content": "And about a third of those were trucks that were already overdue for service according to the spreadsheet. So the data was there, nobody acted on it."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Okay. So today I want to settle the foundational things so Arjun's team can start. Hosting, database, the pilot plan, and what the mechanics' app looks like. Let's start with hosting."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "So two options really. We run it in our own server room at head office, or we go to the cloud. My strong preference is cloud. The server room is already at capacity and we don't have anyone on call at weekends."
+    },
+    {
+      "speaker": "Sara",
+      "content": "From my side cloud is fine as long as it's a provider we've already done a vendor assessment on. We did AWS last year for the billing system. Azure we haven't reviewed."
+    },
+    {
+      "speaker": "Tom",
+      "content": "Does cloud mean it goes down when the depot internet goes down?"
+    },
+    {
+      "speaker": "Arjun",
+      "content": "The server side won't, but the depot would lose access, yes. We'll come back to that with the app design."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Cost-wise?"
+    },
+    {
+      "speaker": "Arjun",
+      "content": "For the pilot it's small. I estimated around eight hundred dollars a month."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Okay. Any objections to AWS?"
+    },
+    {
+      "speaker": "Meera",
+      "content": "None from me. The billing data is already there, so joining to it later is easier."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Then let's lock it: FleetCare will be hosted on AWS. Sara, you don't need a new vendor review."
+    },
+    {
+      "speaker": "Sara",
+      "content": "Correct, the existing assessment covers it."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Good. Database."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "For the scheduling service I want PostgreSQL. Work orders, trucks, parts, schedules, it's all very relational. And the team knows it well."
+    },
+    {
+      "speaker": "Meera",
+      "content": "Works for me. I'd want read access for reporting, maybe a replica later."
+    },
+    {
+      "speaker": "Tom",
+      "content": "I don't have an opinion on databases, I'll be honest."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Ha, fair. Arjun, is anybody arguing for something else?"
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Someone on my team floated MongoDB, but I don't see the reason for it here."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Okay, so PostgreSQL is the primary database for the scheduling service. Agreed?"
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Agreed."
+    },
+    {
+      "speaker": "Meera",
+      "content": "Yes."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Next, the pilot. Tom, which depot?"
+    },
+    {
+      "speaker": "Tom",
+      "content": "Pune. It's our biggest depot, sixty-two trucks, and the depot manager there actually wants this. Nagpur would fight us."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Pune also has the best network connection of the four, which helps."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Timeline? I'd like something running before the financial year planning."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "If we start next week, a usable pilot by mid January is realistic. Not polished, but usable."
+    },
+    {
+      "speaker": "Tom",
+      "content": "Mid January is good for us. December is peak season and I don't want to change anything in December."
+    },
+    {
+      "speaker": "Priya",
+      "content": "So the pilot goes live at the Pune depot on the fifteenth of January. Let's write that down as the target."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Yes. Fifteenth of Jan, Pune."
+    },
+    {
+      "speaker": "Meera",
+      "content": "Will we have historical data loaded by then? I'd want at least a year of service history in it."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "We can import the spreadsheets, yes. Cleaning them is another matter."
+    },
+    {
+      "speaker": "Meera",
+      "content": "I'll help with that."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Okay, the mechanics' app."
+    },
+    {
+      "speaker": "Tom",
+      "content": "The mechanics will use it on phones in the workshop. They need to see today's jobs, mark them done, log the parts used. Big buttons. Some of them wear gloves."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Question is Android, iOS, or both. Both roughly doubles the testing."
+    },
+    {
+      "speaker": "Tom",
+      "content": "Every mechanic phone we issue is Android. The company bought Samsung handsets for all depots two years ago."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Then I'd say Android only for the first release. We can revisit iOS if it ever matters."
+    },
+    {
+      "speaker": "Sara",
+      "content": "Company-issued devices also make device management easier for me, we already have MDM on those."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Android-only for release one, then. Everyone okay?"
+    },
+    {
+      "speaker": "Tom",
+      "content": "Yep."
+    },
+    {
+      "speaker": "Meera",
+      "content": "Fine."
+    },
+    {
+      "speaker": "Tom",
+      "content": "One more idea. Maybe we send SMS alerts to the mechanics when a job is assigned? Some of them don't check apps."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "SMS costs money per message and we'd need a gateway. Not sure."
+    },
+    {
+      "speaker": "Sara",
+      "content": "And phone numbers are personal data, I'd want to look at that."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Let's park SMS. It's a good idea but we haven't got enough to decide. Tom, can you find out how many mechanics would actually want it?"
+    },
+    {
+      "speaker": "Tom",
+      "content": "I can ask the depot leads."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Okay. Actions. Arjun, set up the AWS account and the repo this week. Meera, start pulling the spreadsheets together. Tom, the SMS question. Sara, can you send Arjun the AWS assessment document?"
+    },
+    {
+      "speaker": "Sara",
+      "content": "Will do, today."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Sounds good."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Great. Same time in two weeks. Thanks all."
+    }
+  ]
+}

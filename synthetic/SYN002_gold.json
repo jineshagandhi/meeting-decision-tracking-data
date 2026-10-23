@@ -1,0 +1,244 @@
+{
+  "series_id": "SYN002",
+  "provenance": "Written on 11 October 2026 with an AI writing assistant (not Gemini, the model under evaluation). The same assistant designed the frame-ack contradiction-detection method, so this series is NOT BLIND: report it as a second synthetic series written after the method's prompts were frozen (frames-v1, ack-v1), not as a blind held-out test. The ground truth (decisions.csv, relations.csv, non_decisions.csv) was fixed together with the transcripts, before the system was run on them. To limit the author's bias it deliberately contains hard cases: a contradiction whose earlier option is mentioned in between without any change being agreed (G16 vs G3), a revision acknowledged only indirectly (G7 vs G2), changes agreed in one meeting and only re-confirmed later (G13, G20 vs G2), and look-alike decisions on different subjects (G11 vs G1/G17, G14 vs G2). Domain: an outpatient booking app for a hospital's clinics, used by no other evaluation series or prompt. The transcripts are LLM-written and cleaner than real meetings; the team should review them for realism before publication.",
+  "decisions": [
+    {
+      "gold_id": "G1",
+      "meeting": "a",
+      "sequence_index": 1,
+      "text": "Appointment reminders are sent by SMS two days before the appointment.",
+      "anchor_turn": 9
+    },
+    {
+      "gold_id": "G2",
+      "meeting": "a",
+      "sequence_index": 1,
+      "text": "The app launches at the Andheri clinic on 1 March.",
+      "anchor_turn": 17
+    },
+    {
+      "gold_id": "G3",
+      "meeting": "a",
+      "sequence_index": 1,
+      "text": "Online payments go through Razorpay.",
+      "anchor_turn": 22
+    },
+    {
+      "gold_id": "G4",
+      "meeting": "a",
+      "sequence_index": 1,
+      "text": "Patients can book appointments up to 30 days ahead.",
+      "anchor_turn": 27
+    },
+    {
+      "gold_id": "G5",
+      "meeting": "a",
+      "sequence_index": 1,
+      "text": "The app supports English and Hindi at launch.",
+      "anchor_turn": 32
+    },
+    {
+      "gold_id": "G6",
+      "meeting": "a",
+      "sequence_index": 1,
+      "text": "Video consultations are out of scope for version 1.",
+      "anchor_turn": 36
+    },
+    {
+      "gold_id": "G7",
+      "meeting": "b",
+      "sequence_index": 2,
+      "text": "The Andheri launch moves to 15 March.",
+      "anchor_turn": 7
+    },
+    {
+      "gold_id": "G8",
+      "meeting": "b",
+      "sequence_index": 2,
+      "text": "Front desk staff check every Hindi screen before launch.",
+      "anchor_turn": 22
+    },
+    {
+      "gold_id": "G9",
+      "meeting": "b",
+      "sequence_index": 2,
+      "text": "The hospital's existing doctor schedule system is the source of truth for appointment slots.",
+      "anchor_turn": 13
+    },
+    {
+      "gold_id": "G10",
+      "meeting": "b",
+      "sequence_index": 2,
+      "text": "The front desk can cancel appointments on a patient's behalf.",
+      "anchor_turn": 16
+    },
+    {
+      "gold_id": "G11",
+      "meeting": "c",
+      "sequence_index": 3,
+      "text": "Staff receive their shift roster by email every Friday.",
+      "anchor_turn": 14
+    },
+    {
+      "gold_id": "G12",
+      "meeting": "c",
+      "sequence_index": 3,
+      "text": "The booking window is extended from 30 to 60 days.",
+      "anchor_turn": 7
+    },
+    {
+      "gold_id": "G13",
+      "meeting": "c",
+      "sequence_index": 3,
+      "text": "The 15 March launch at Andheri stands.",
+      "anchor_turn": 2
+    },
+    {
+      "gold_id": "G14",
+      "meeting": "c",
+      "sequence_index": 3,
+      "text": "A second check-in kiosk is installed at the Andheri clinic.",
+      "anchor_turn": 17
+    },
+    {
+      "gold_id": "G15",
+      "meeting": "c",
+      "sequence_index": 3,
+      "text": "Doctors can block emergency slots in the app, and the blocks sync back to the schedule system.",
+      "anchor_turn": 20
+    },
+    {
+      "gold_id": "G16",
+      "meeting": "d",
+      "sequence_index": 4,
+      "text": "Card payments run on PayU.",
+      "anchor_turn": 15
+    },
+    {
+      "gold_id": "G17",
+      "meeting": "d",
+      "sequence_index": 4,
+      "text": "Patients get a WhatsApp message the evening before their appointment.",
+      "anchor_turn": 10
+    },
+    {
+      "gold_id": "G18",
+      "meeting": "d",
+      "sequence_index": 4,
+      "text": "Video consultations are piloted for follow-up visits in version 1.",
+      "anchor_turn": 19
+    },
+    {
+      "gold_id": "G19",
+      "meeting": "d",
+      "sequence_index": 4,
+      "text": "When the front desk cancels for a patient, the patient's verbal consent is noted in the app.",
+      "anchor_turn": 23
+    },
+    {
+      "gold_id": "G20",
+      "meeting": "d",
+      "sequence_index": 4,
+      "text": "The 15 March Andheri go-live is confirmed again.",
+      "anchor_turn": 5
+    }
+  ],
+  "relations": [
+    {
+      "later": "G7",
+      "earlier": "G2",
+      "relation": "REVISED",
+      "rationale": "launch date changed; acknowledged only indirectly (\"the date we picked at kickoff won't work\")"
+    },
+    {
+      "later": "G13",
+      "earlier": "G2",
+      "relation": "REVISED",
+      "rationale": "date change agreed in meeting b, only re-confirmed in meeting c"
+    },
+    {
+      "later": "G20",
+      "earlier": "G2",
+      "relation": "REVISED",
+      "rationale": "date change agreed in meeting b, confirmed again in meeting d"
+    },
+    {
+      "later": "G13",
+      "earlier": "G7",
+      "relation": "SAME",
+      "rationale": "15 March re-confirmed"
+    },
+    {
+      "later": "G20",
+      "earlier": "G7",
+      "relation": "SAME",
+      "rationale": "15 March confirmed again"
+    },
+    {
+      "later": "G20",
+      "earlier": "G13",
+      "relation": "SAME",
+      "rationale": "15 March confirmed again"
+    },
+    {
+      "later": "G12",
+      "earlier": "G4",
+      "relation": "REVISED",
+      "rationale": "booking window 30 -> 60 days, explicitly changed"
+    },
+    {
+      "later": "G8",
+      "earlier": "G5",
+      "relation": "REFINES",
+      "rationale": "keeps English and Hindi, adds a check of the Hindi screens"
+    },
+    {
+      "later": "G15",
+      "earlier": "G9",
+      "relation": "REFINES",
+      "rationale": "keeps the schedule system as the source of truth; emergency blocks sync back to it"
+    },
+    {
+      "later": "G19",
+      "earlier": "G10",
+      "relation": "REFINES",
+      "rationale": "keeps front-desk cancellation, adds noting verbal consent"
+    },
+    {
+      "later": "G16",
+      "earlier": "G3",
+      "relation": "CONTRADICTORY",
+      "rationale": "PayU chosen in d with no reference to Razorpay (Sofia absent); Razorpay's fees were MENTIONED in c, but no change was agreed"
+    },
+    {
+      "later": "G17",
+      "earlier": "G1",
+      "relation": "CONTRADICTORY",
+      "rationale": "WhatsApp the evening before vs SMS two days before; never discussed as a change (Dr. Mehta absent)"
+    },
+    {
+      "later": "G18",
+      "earlier": "G6",
+      "relation": "CONTRADICTORY",
+      "rationale": "video pilot in version 1 vs video out of scope for version 1; never referred to (Dr. Mehta absent)"
+    }
+  ],
+  "ambiguous": [],
+  "non_decisions": [
+    {
+      "meeting": "a",
+      "text": "Loyalty points for regular patients (parked)",
+      "anchor_turn": 37
+    },
+    {
+      "meeting": "b",
+      "text": "A chatbot for common questions (wish list)",
+      "anchor_turn": 24
+    },
+    {
+      "meeting": "c",
+      "text": "Home delivery of medicines through partner pharmacies (not for this app)",
+      "anchor_turn": 24
+    }
+  ]
+}

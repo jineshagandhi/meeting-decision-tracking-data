@@ -1,0 +1,143 @@
+{
+  "topic_list": [],
+  "general_query_list": [],
+  "specific_query_list": [],
+  "meeting_transcripts": [
+    {
+      "speaker": "Maya",
+      "content": "Welcome back. Nisha is absent today; she is attending the city transport review."
+    },
+    {
+      "speaker": "Kabir",
+      "content": "The depot has finally repaired the leaky roof."
+    },
+    {
+      "speaker": "Leena",
+      "content": "Excellent. We won't need umbrellas during the demonstration."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "I've tested the offline validator on my laptop."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Let's start with the launch schedule."
+    },
+    {
+      "speaker": "Kabir",
+      "content": "The central depot has a maintenance closure on the date we picked at kickoff."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Could we use the smaller east depot instead?"
+    },
+    {
+      "speaker": "Leena",
+      "content": "That would confuse the passengers recruited from the central route."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Let's keep Central Depot, but move the launch from the date we agreed at kickoff to 19 November. Does everyone agree?"
+    },
+    {
+      "speaker": "Kabir",
+      "content": "Yes. I'll reserve the covered area for the new date."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "That gives me another week to test offline recovery."
+    },
+    {
+      "speaker": "Leena",
+      "content": "How did the forty-passenger trial estimate come about?"
+    },
+    {
+      "speaker": "Kabir",
+      "content": "The driver supervisor thinks the first supervised run can safely handle fifty."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "I can support fifty if we stagger boarding and record each run separately."
+    },
+    {
+      "speaker": "Maya",
+      "content": "We're explicitly updating the earlier limit of forty. The pilot cap will now be 50 passengers per bus."
+    },
+    {
+      "speaker": "Leena",
+      "content": "I spoke with two community groups about language needs."
+    },
+    {
+      "speaker": "Kabir",
+      "content": "The kiosk vendor says adding another language is a software configuration, not a hardware change."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Let's support both Marathi and English in the passenger-facing kiosk screens."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Does that include the printed ticket?"
+    },
+    {
+      "speaker": "Leena",
+      "content": "It should, but we haven't checked how much text fits."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Good catch. We'll test the ticket layout before approving the final print template."
+    },
+    {
+      "speaker": "Kabir",
+      "content": "One operational question: when can passengers get help if a ticket fails?"
+    },
+    {
+      "speaker": "Leena",
+      "content": "A staffed help desk from 8 a.m. to 5 p.m. seems practical for the pilot."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Agreed, the pilot help desk will operate from 8 a.m. to 5 p.m."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "What if someone has a problem after the desk closes?"
+    },
+    {
+      "speaker": "Kabir",
+      "content": "The depot supervisor could answer urgent calls, perhaps."
+    },
+    {
+      "speaker": "Leena",
+      "content": "That sounds like extra work for the drivers too."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Let's leave after-hours support open until we know the expected call volume. No decision today."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "On ticket sales, we still have the kiosk-only plan from our kickoff. I haven't changed the implementation."
+    },
+    {
+      "speaker": "Kabir",
+      "content": "Fine. I haven't ordered any equipment for onboard payment."
+    },
+    {
+      "speaker": "Leena",
+      "content": "Did anyone hear back about the suggestion box?"
+    },
+    {
+      "speaker": "Maya",
+      "content": "Not yet. Let's park it rather than adding another task."
+    },
+    {
+      "speaker": "Kabir",
+      "content": "I'll confirm the covered-area booking and the printer delivery date."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "I'll send a short report on the offline tests tomorrow."
+    }
+  ]
+}

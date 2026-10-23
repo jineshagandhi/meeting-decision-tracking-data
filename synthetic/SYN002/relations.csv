@@ -1,0 +1,14 @@
+later,earlier,relation,rationale
+G7,G2,REVISED,"launch date changed; acknowledged only indirectly (""the date we picked at kickoff won't work"")"
+G13,G2,REVISED,"date change agreed in meeting b, only re-confirmed in meeting c"
+G20,G2,REVISED,"date change agreed in meeting b, confirmed again in meeting d"
+G13,G7,SAME,15 March re-confirmed
+G20,G7,SAME,15 March confirmed again
+G20,G13,SAME,15 March confirmed again
+G12,G4,REVISED,"booking window 30 -> 60 days, explicitly changed"
+G8,G5,REFINES,"keeps English and Hindi, adds a check of the Hindi screens"
+G15,G9,REFINES,"keeps the schedule system as the source of truth; emergency blocks sync back to it"
+G19,G10,REFINES,"keeps front-desk cancellation, adds noting verbal consent"
+G16,G3,CONTRADICTORY,"PayU chosen in d with no reference to Razorpay (Sofia absent); Razorpay's fees were MENTIONED in c, but no change was agreed"
+G17,G1,CONTRADICTORY,"WhatsApp the evening before vs SMS two days before; never discussed as a change (Dr. Mehta absent)"
+G18,G6,CONTRADICTORY,"video pilot in version 1 vs video out of scope for version 1; never referred to (Dr. Mehta absent)"

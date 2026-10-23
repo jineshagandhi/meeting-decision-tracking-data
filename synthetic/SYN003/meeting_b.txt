@@ -1,0 +1,34 @@
+Maya: Welcome back. Nisha is absent today; she is attending the city transport review.
+Kabir: The depot has finally repaired the leaky roof.
+Leena: Excellent. We won't need umbrellas during the demonstration.
+Arjun: I've tested the offline validator on my laptop.
+Maya: Let's start with the launch schedule.
+Kabir: The central depot has a maintenance closure on the date we picked at kickoff.
+Arjun: Could we use the smaller east depot instead?
+Leena: That would confuse the passengers recruited from the central route.
+Maya: Let's keep Central Depot, but move the launch from the date we agreed at kickoff to 19 November. Does everyone agree? [[G6]]
+Kabir: Yes. I'll reserve the covered area for the new date.
+Arjun: That gives me another week to test offline recovery.
+Leena: How did the forty-passenger trial estimate come about?
+Kabir: The driver supervisor thinks the first supervised run can safely handle fifty.
+Arjun: I can support fifty if we stagger boarding and record each run separately.
+Maya: We're explicitly updating the earlier limit of forty. The pilot cap will now be 50 passengers per bus. [[G7]]
+Leena: I spoke with two community groups about language needs.
+Kabir: The kiosk vendor says adding another language is a software configuration, not a hardware change.
+Maya: Let's support both Marathi and English in the passenger-facing kiosk screens. [[G8]]
+Arjun: Does that include the printed ticket?
+Leena: It should, but we haven't checked how much text fits.
+Maya: Good catch. We'll test the ticket layout before approving the final print template.
+Kabir: One operational question: when can passengers get help if a ticket fails?
+Leena: A staffed help desk from 8 a.m. to 5 p.m. seems practical for the pilot.
+Maya: Agreed, the pilot help desk will operate from 8 a.m. to 5 p.m. [[G9]]
+Arjun: What if someone has a problem after the desk closes? [[N2]]
+Kabir: The depot supervisor could answer urgent calls, perhaps.
+Leena: That sounds like extra work for the drivers too.
+Maya: Let's leave after-hours support open until we know the expected call volume. No decision today.
+Arjun: On ticket sales, we still have the kiosk-only plan from our kickoff. I haven't changed the implementation.
+Kabir: Fine. I haven't ordered any equipment for onboard payment.
+Leena: Did anyone hear back about the suggestion box?
+Maya: Not yet. Let's park it rather than adding another task.
+Kabir: I'll confirm the covered-area booking and the printer delivery date.
+Arjun: I'll send a short report on the offline tests tomorrow.

@@ -1,0 +1,127 @@
+{
+  "topic_list": [],
+  "general_query_list": [],
+  "specific_query_list": [],
+  "meeting_transcripts": [
+    {
+      "speaker": "Anita",
+      "content": "Let's go. First, the date. Ravi?"
+    },
+    {
+      "speaker": "Ravi",
+      "content": "The IT team's live endpoint went up on Tuesday, and it works. So the fifteenth of March stands, no change."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Great. So we're still on for the fifteenth of March at Andheri."
+    },
+    {
+      "speaker": "Kiran",
+      "content": "The Andheri staff will be relieved."
+    },
+    {
+      "speaker": "Dr. Mehta",
+      "content": "Can we talk about the booking window? The thirty-day limit is a problem for my diabetes follow-ups. They come every eight weeks."
+    },
+    {
+      "speaker": "Kiran",
+      "content": "They call the front desk every time, and we book them by hand."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "The schedule system has sessions for about three months ahead, so a longer window is no problem technically."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Then let's change the earlier rule. We're extending the booking window from thirty days to sixty days. Agreed?"
+    },
+    {
+      "speaker": "Dr. Mehta",
+      "content": "Agreed."
+    },
+    {
+      "speaker": "Sofia",
+      "content": "Fine."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "Easy change."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Rosters. Kiran, you wanted something?"
+    },
+    {
+      "speaker": "Kiran",
+      "content": "Not for patients, for staff. Every Friday I hand out the shift roster on paper. Could the system email it?"
+    },
+    {
+      "speaker": "Ravi",
+      "content": "We can send it from the same mail service."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Okay. Staff get their shift roster by email every Friday."
+    },
+    {
+      "speaker": "Kiran",
+      "content": "And Andheri needs a second check-in kiosk. On Mondays the queue goes out of the door."
+    },
+    {
+      "speaker": "Sofia",
+      "content": "The budget has room for one more kiosk this quarter."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Then we install a second check-in kiosk at the Andheri clinic."
+    },
+    {
+      "speaker": "Dr. Mehta",
+      "content": "One thing from the doctors. Sometimes we need to block a slot for an emergency, at short notice."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "Doctors can block slots in the app, and the block is written back to the schedule system, so that stays the source of truth."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Good. So doctors can block emergency slots in the app, and the blocks sync back to the schedule system."
+    },
+    {
+      "speaker": "Kiran",
+      "content": "By the way, Razorpay's fees went up this month. I saw the notice."
+    },
+    {
+      "speaker": "Sofia",
+      "content": "Did they? I'd have to check the new rates."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Let's look at that later, it's not urgent."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "Someone asked about home delivery of medicines through partner pharmacies. Is that ours?"
+    },
+    {
+      "speaker": "Anita",
+      "content": "Not for this app. Let's not go there now."
+    },
+    {
+      "speaker": "Dr. Mehta",
+      "content": "Will the app work on the old tablets at the Andheri desk?"
+    },
+    {
+      "speaker": "Ravi",
+      "content": "We tested on two of them. Slow, but it works."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Okay, that's it for today. Sofia, you're on leave next week, right?"
+    },
+    {
+      "speaker": "Sofia",
+      "content": "Yes, back the week after."
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "topic_list": [],
+  "general_query_list": [],
+  "specific_query_list": [],
+  "meeting_transcripts": [
+    {
+      "speaker": "Maya",
+      "content": "Quick update before we start: Kabir is absent because he's visiting the east depot."
+    },
+    {
+      "speaker": "Leena",
+      "content": "I brought the passenger feedback sheets."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "I also have the first backend test results."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Let's hear the feedback first."
+    },
+    {
+      "speaker": "Leena",
+      "content": "Several younger commuters asked whether they could pay directly while boarding."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Technically, we could accept a phone tap and return a signed payment token."
+    },
+    {
+      "speaker": "Leena",
+      "content": "That would remove the need to queue before boarding."
+    },
+    {
+      "speaker": "Maya",
+      "content": "All right, let's allow passengers to pay by tapping their phones on the bus during the pilot."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "I'll need to add the onboard payment event to the API."
+    },
+    {
+      "speaker": "Leena",
+      "content": "We should make the payment confirmation readable, not just a vibration."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Put that in the usability backlog; we haven't agreed on the exact confirmation design."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "The ticket format is the other issue. Our printer prototype uses a lot of ink."
+    },
+    {
+      "speaker": "Leena",
+      "content": "We discussed the paper ticket at kickoff, but a QR ticket could be cheaper to verify and easier to audit."
+    },
+    {
+      "speaker": "Maya",
+      "content": "We've decided to move away from the printed-paper proof we selected earlier. The accepted ticket format will be a QR code."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "I can generate signed QR codes and validate them offline."
+    },
+    {
+      "speaker": "Leena",
+      "content": "Please make sure screenshots can't be reused on multiple buses."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "I'll investigate replay prevention, but I can't promise a perfect solution by launch."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Keep that as a technical risk until we test it."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "The offline storage limit also needs attention."
+    },
+    {
+      "speaker": "Maya",
+      "content": "What happens if a bus has a long shift without connectivity?"
+    },
+    {
+      "speaker": "Arjun",
+      "content": "The current 200-record cache may fill before the next sync."
+    },
+    {
+      "speaker": "Leena",
+      "content": "We should retain more records but avoid storing unnecessary passenger information."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Keep offline validation, and raise the local record capacity from 200 to 500 scans."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "I'll store only the scan reference, timestamp, and validation outcome."
+    },
+    {
+      "speaker": "Leena",
+      "content": "What did the help desk receive after yesterday's trial?"
+    },
+    {
+      "speaker": "Maya",
+      "content": "Three passengers called after closing time because their tickets were rejected."
+    },
+    {
+      "speaker": "Leena",
+      "content": "We could have a rotating contact available around the clock."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Let's make the pilot help desk operate 24 hours a day, seven days a week."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Is that a staffed desk or a telephone contact?"
+    },
+    {
+      "speaker": "Maya",
+      "content": "I haven't worked out the staffing arrangement yet."
+    },
+    {
+      "speaker": "Leena",
+      "content": "Then let's document the service expectation and settle the rota separately."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "The QR prototype works on my phone, but I haven't tried it in bright sunlight."
+    },
+    {
+      "speaker": "Leena",
+      "content": "I can arrange a short outdoor usability test."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Do that before we call the ticket format ready."
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "topic_list": [],
+  "general_query_list": [
+    {
+      "query": "Summarize the whole meeting.",
+      "answer": "Final pre-go-live meeting. Testing at Pune showed several senior mechanics use personal iPhones rather than the company Android phones, so the team changed the earlier plan: the first release of the mechanics' app will support both Android and iOS, rebuilt in Flutter, with iOS following two weeks after Android. Hosting was re-confirmed as AWS Mumbai with no further change. Job assignment notifications to mechanics will be sent by SMS. Two contract mechanics were approved for Pune for February and March to cover the learning curve. The reporting dashboard was deferred to the next meeting."
+    }
+  ],
+  "specific_query_list": [],
+  "meeting_transcripts": [
+    {
+      "speaker": "Priya",
+      "content": "Okay, welcome back everyone, and thanks Arjun for running the last one. A couple of things to close today before go-live. Tom, you've been testing with the mechanics."
+    },
+    {
+      "speaker": "Tom",
+      "content": "Yes. We gave the test build to eight mechanics at Pune. Big finding: four of the senior mechanics have bought their own iPhones and they use their personal phones, not the company Samsung. They leave the Samsung in the locker."
+    },
+    {
+      "speaker": "Priya",
+      "content": "So they can't use the app."
+    },
+    {
+      "speaker": "Tom",
+      "content": "Not unless we force them to carry two phones, and they won't."
+    },
+    {
+      "speaker": "Sara",
+      "content": "If they're personal devices I need a lighter enrolment, but it's doable, we did it for the sales team."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "If we need iOS, I'd switch the app to Flutter. One codebase, Android and iOS. My team has used it. The current Android code is about three weeks old, we'd lose less than we think."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Does that affect February first?"
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Android stays on schedule. iOS would follow two weeks later."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Okay. So we're changing the earlier plan: the first release of the mechanics' app supports both Android and iOS, built in Flutter, instead of Android-only. Agreed?"
+    },
+    {
+      "speaker": "Tom",
+      "content": "Agreed, that's what the mechanics need."
+    },
+    {
+      "speaker": "Meera",
+      "content": "Fine."
+    },
+    {
+      "speaker": "Sara",
+      "content": "Agreed, with the enrolment."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Hosting check. Sara, are we fine?"
+    },
+    {
+      "speaker": "Sara",
+      "content": "Yes. Everything's in AWS Mumbai, backups too. I re-checked last week."
+    },
+    {
+      "speaker": "Priya",
+      "content": "So hosting stays on AWS in the Mumbai region, no further change."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Correct."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Next. Tom, something from the mechanics?"
+    },
+    {
+      "speaker": "Tom",
+      "content": "They keep asking for text messages when a job is assigned to them. A lot of them don't open the app until they're told to."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "We can use the AWS SMS service, it's about twenty paise a message."
+    },
+    {
+      "speaker": "Sara",
+      "content": "Numbers would come from the HR system. For company staff I'm okay with that."
+    },
+    {
+      "speaker": "Tom",
+      "content": "Then let's do SMS for job assignments."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Okay. Job assignment notifications to mechanics go out by SMS. I'll add it this sprint."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Okay, fine."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Last thing, staffing for the pilot. Tom?"
+    },
+    {
+      "speaker": "Tom",
+      "content": "During go-live the Pune mechanics will be slower, they're learning the system. I'd like two contract mechanics for February and March to cover the workload."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Cost?"
+    },
+    {
+      "speaker": "Tom",
+      "content": "About one lakh twenty thousand rupees a month for both."
+    },
+    {
+      "speaker": "Priya",
+      "content": "That's within the pilot contingency. Approved: two contract mechanics at Pune for February and March."
+    },
+    {
+      "speaker": "Tom",
+      "content": "Thanks."
+    },
+    {
+      "speaker": "Meera",
+      "content": "Can we also talk about the reporting dashboard? I'd like to show the overdue list to the depot managers."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Let's do that next meeting, we're out of time."
+    },
+    {
+      "speaker": "Priya",
+      "content": "Okay, thanks all. Big month coming."
+    }
+  ]
+}

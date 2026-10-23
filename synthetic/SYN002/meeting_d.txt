@@ -1,0 +1,28 @@
+Anita: Morning. Sofia's on leave and Dr. Mehta is in theatre, so it's Ravi, Kiran, me, and Neha from marketing joining us today.
+Neha: Hi everyone, thanks for having me.
+Ravi: Welcome, Neha.
+Anita: Ravi, launch status?
+Ravi: Good. The Andheri go-live on the fifteenth of March is confirmed again. The front desk finished testing yesterday.
+Anita: Excellent. So the fifteenth of March stays. [[G20]]
+Neha: Can I ask about reminders? Our patient survey says almost everyone uses WhatsApp now.
+Kiran: That's true. Even the older patients have it. Their children set it up for them.
+Ravi: The WhatsApp business API is ready on our side. We could send the message the evening before.
+Neha: The evening before works best. People remember what they hear the night before.
+Anita: Okay, patients get a WhatsApp message the evening before their appointment. [[G17]]
+Ravi: I'll set up the message template this week.
+Anita: Payments. Ravi, you've been doing the integration?
+Ravi: Yes. The payment SDK we're integrating is PayU. Their card flow is quicker, fewer screens for the patient.
+Kiran: Fine with me, as long as patients can still pay at the desk.
+Anita: Okay, card payments run on PayU. [[G16]]
+Ravi: Another thing. A lot of follow-up visits are just "show me your reports". We could do those over video.
+Kiran: Patients who live far away would love that.
+Neha: It would be a nice story for the launch, too.
+Anita: Let's do it. We pilot video consultations for follow-up visits in version one. [[G18]]
+Ravi: I'll start on it after launch week.
+Kiran: About cancellations by phone: we need to record that the patient agreed.
+Ravi: We can add a field where the staff note that the patient gave verbal consent.
+Anita: Good. When the front desk cancels for a patient, they note the patient's verbal consent in the app. [[G19]]
+Neha: Will there be posters at the clinic for the launch?
+Kiran: The Andheri manager would like that. The waiting room has space.
+Neha: I'll bring some designs next time.
+Anita: Thanks, everyone. Good meeting.

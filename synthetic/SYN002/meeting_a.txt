@@ -1,0 +1,43 @@
+Anita: Morning, everyone. Thanks for coming in early. This is the kickoff for ClinicLink, the patient booking app for our outpatient clinics.
+Kiran: Morning. I brought chai, it's on the side table.
+Ravi: You're a hero, Kiran.
+Anita: Let's go through the big choices today so Ravi's team can start next week. First, reminders. Our no-show rate at Andheri is around eighteen percent.
+Kiran: Some days it's worse. Mondays are terrible.
+Dr. Mehta: A reminder helps a lot. At my old hospital we sent an SMS two days before, and no-shows dropped by almost a third.
+Ravi: SMS is easy for us. We already have a bulk SMS account for the lab reports.
+Anita: Two days before gives people time to reschedule instead of just not turning up.
+Kiran: And patients do read SMS. Not everyone has a smartphone.
+Anita: Okay, so appointment reminders go out by SMS, two days before the appointment. Agreed? [[G1]]
+Dr. Mehta: Agreed.
+Ravi: Fine by me.
+Anita: Next, where and when we launch.
+Ravi: Andheri is the obvious pilot. Their front desk already uses the new schedule screens.
+Kiran: And the Andheri manager is keen. She asked me twice last week.
+Anita: Ravi, is the first of March realistic?
+Ravi: If we don't add anything big, yes. Tight, but doable.
+Anita: Then the app launches at the Andheri clinic on the first of March. [[G2]]
+Kiran: I'll tell the Andheri team today.
+Anita: Payments. Sofia, over to you.
+Sofia: For online payments I'd go with Razorpay. Our finance system already reconciles their settlement reports, and their compliance paperwork is done.
+Ravi: Their SDK is fine. I've used it before.
+Anita: Any objections? No? Online payments go through Razorpay, then. [[G3]]
+Sofia: I'll send Ravi the keys for the test account.
+Anita: How far ahead can patients book?
+Dr. Mehta: Not too far, please. Doctors' leave plans change, and then the front desk has to cancel people.
+Kiran: A month is what we do on the phone today.
+Anita: So patients can book up to thirty days ahead. [[G4]]
+Ravi: Thirty days, noted.
+Anita: Languages.
+Kiran: Hindi, definitely. Half our patients at Andheri prefer it.
+Ravi: English and Hindi is fine. Every extra language means more testing.
+Anita: The app supports English and Hindi at launch. [[G5]]
+Dr. Mehta: Can I raise video consultations? Some of my colleagues keep asking about them.
+Ravi: Video is a whole project. Recording, consent, a stable connection on patients' phones...
+Dr. Mehta: Honestly, I agree. Not for the first version.
+Anita: Then video consultations are out of scope for version one. [[G6]]
+Kiran: One idea from the front desk: loyalty points for regular patients? People keep asking about discounts. [[N1]]
+Sofia: That needs a proper look on the finance side. Let's not decide it now.
+Anita: Agreed, we park the loyalty idea.
+Ravi: Can someone get me the slot data this week?
+Kiran: I'll ask the Andheri manager.
+Anita: Good. Same time next week. Thanks, all.

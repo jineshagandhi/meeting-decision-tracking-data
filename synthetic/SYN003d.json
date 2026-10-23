@@ -1,0 +1,163 @@
+{
+  "topic_list": [],
+  "general_query_list": [],
+  "specific_query_list": [],
+  "meeting_transcripts": [
+    {
+      "speaker": "Maya",
+      "content": "Good morning. Everyone is here today, and we have the pilot readiness review."
+    },
+    {
+      "speaker": "Kabir",
+      "content": "The central depot has confirmed the covered area booking."
+    },
+    {
+      "speaker": "Leena",
+      "content": "I tested the bilingual kiosk screens with six volunteers."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "I fixed the QR validation bug that caused duplicate scans to appear successful."
+    },
+    {
+      "speaker": "Maya",
+      "content": "First, are we still using 19 November at Central Depot?"
+    },
+    {
+      "speaker": "Kabir",
+      "content": "Yes, the transport team has reserved the space."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Then let's confirm the launch on 19 November at Central Depot."
+    },
+    {
+      "speaker": "Leena",
+      "content": "The volunteer feedback was mostly positive."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "One volunteer asked if a physical card would be faster than displaying a code."
+    },
+    {
+      "speaker": "Kabir",
+      "content": "A contactless smartcard could be scanned at the gate without printing anything."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Let's arrange a loan NFC reader for equipment compatibility testing at the depot entrance; it will not determine the accepted fare format."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "I'll need to check whether the reader can connect to our test equipment."
+    },
+    {
+      "speaker": "Kabir",
+      "content": "I can ask the equipment supplier for a loan unit."
+    },
+    {
+      "speaker": "Leena",
+      "content": "Do we have enough time to test both the card and the QR code?"
+    },
+    {
+      "speaker": "Maya",
+      "content": "We need a single format in the pilot build, so please flag any supplier delay immediately."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "The QR build is ready for another test, and the offline cache now holds 500 scan records."
+    },
+    {
+      "speaker": "Maya",
+      "content": "To be clear, we're keeping the QR ticket decision from the last meeting. QR codes remain the accepted ticket format for the pilot."
+    },
+    {
+      "speaker": "Kabir",
+      "content": "I'll check whether the NFC reader can be returned after the equipment test."
+    },
+    {
+      "speaker": "Leena",
+      "content": "That sounds sensible, but we should not confuse the volunteers with two ticket formats."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Agreed on avoiding mixed instructions. We need to settle the passenger messaging next."
+    },
+    {
+      "speaker": "Leena",
+      "content": "The kiosk screens already offer Marathi and English."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Let's also provide pilot announcements in Marathi and English, matching the two kiosk languages."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "Are we still using the signed QR payload in offline mode?"
+    },
+    {
+      "speaker": "Maya",
+      "content": "Yes, keep the offline validation approach; we'll review the security test results before launch."
+    },
+    {
+      "speaker": "Kabir",
+      "content": "The printer supplier says the old thermal paper order can be cancelled."
+    },
+    {
+      "speaker": "Leena",
+      "content": "Did we ever decide on the suggestion box?"
+    },
+    {
+      "speaker": "Maya",
+      "content": "No, it remains outside the pilot scope."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "The sunlight test passed, though one older phone had trouble focusing."
+    },
+    {
+      "speaker": "Leena",
+      "content": "I'll include that limitation in the volunteer briefing."
+    },
+    {
+      "speaker": "Kabir",
+      "content": "Who will handle the first morning's queue?"
+    },
+    {
+      "speaker": "Maya",
+      "content": "I'll coordinate with the depot supervisor and send the rota by Friday."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "I still need the final anonymous reporting format."
+    },
+    {
+      "speaker": "Maya",
+      "content": "Let's record it as a follow-up; we haven't approved a format yet."
+    },
+    {
+      "speaker": "Leena",
+      "content": "Fine. At least the pilot scope is much clearer now."
+    },
+    {
+      "speaker": "Kabir",
+      "content": "The driver training checklist still needs to be prepared."
+    },
+    {
+      "speaker": "Maya",
+      "content": "The driver training checklist will be available in Marathi and English."
+    },
+    {
+      "speaker": "Arjun",
+      "content": "One driver asked whether passengers could simply hand over cash while boarding."
+    },
+    {
+      "speaker": "Kabir",
+      "content": "That would be familiar to many regular passengers."
+    },
+    {
+      "speaker": "Maya",
+      "content": "We'll collect all pilot fares in cash as passengers board, with drivers handling the money."
+    }
+  ]
+}

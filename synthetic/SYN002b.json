@@ -1,0 +1,135 @@
+{
+  "topic_list": [],
+  "general_query_list": [],
+  "specific_query_list": [],
+  "meeting_transcripts": [
+    {
+      "speaker": "Anita",
+      "content": "Okay, let's start. Ravi, how is the build going?"
+    },
+    {
+      "speaker": "Ravi",
+      "content": "Mixed. The booking screens work against the test data. But the integration with the doctor schedule system is slower than I thought."
+    },
+    {
+      "speaker": "Kiran",
+      "content": "Is that the old system from the IT team?"
+    },
+    {
+      "speaker": "Ravi",
+      "content": "Yes. Right now their API only gives us a nightly export. They're adding a live endpoint, but not before the end of February."
+    },
+    {
+      "speaker": "Anita",
+      "content": "That affects the launch."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "It does. Honestly, the date we picked at kickoff won't work. I need about two weeks after their endpoint is live."
+    },
+    {
+      "speaker": "Dr. Mehta",
+      "content": "Better late than double bookings."
+    },
+    {
+      "speaker": "Anita",
+      "content": "I don't love it, but okay. We push the Andheri launch to the fifteenth of March. Everyone okay with that?"
+    },
+    {
+      "speaker": "Kiran",
+      "content": "Yes. I'll update the Andheri manager."
+    },
+    {
+      "speaker": "Sofia",
+      "content": "Fine with me."
+    },
+    {
+      "speaker": "Anita",
+      "content": "While we're on the schedule system: where do the slots come from?"
+    },
+    {
+      "speaker": "Ravi",
+      "content": "I want one source of truth. The hospital's schedule system already has every doctor's sessions. If we keep our own copy, the two will drift apart."
+    },
+    {
+      "speaker": "Dr. Mehta",
+      "content": "Doctors will only update one place. They won't update two."
+    },
+    {
+      "speaker": "Anita",
+      "content": "So the existing doctor schedule system is the source of truth for appointment slots."
+    },
+    {
+      "speaker": "Kiran",
+      "content": "Front desk question. When a patient phones to cancel, can we cancel for them in the app? Many elderly patients will just call."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "Sure, with a staff login."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Yes. The front desk can cancel appointments on a patient's behalf."
+    },
+    {
+      "speaker": "Kiran",
+      "content": "Thank you. That saves a lot of trouble."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Kiran, you had a concern about the languages?"
+    },
+    {
+      "speaker": "Kiran",
+      "content": "The Hindi on the first screens reads like a machine translated it. Some of it is funny, to be honest."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "It was machine translated. We'll fix it."
+    },
+    {
+      "speaker": "Kiran",
+      "content": "My front desk staff can check every Hindi screen before launch. They talk to patients all day."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Good. So the front desk staff check every Hindi screen before launch."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "I'll send them the screens in a spreadsheet."
+    },
+    {
+      "speaker": "Dr. Mehta",
+      "content": "Someone suggested a chatbot for common questions, parking, timings and so on. Could we add one?"
+    },
+    {
+      "speaker": "Ravi",
+      "content": "Not now, please. That's another project."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Let's keep it on the wish list."
+    },
+    {
+      "speaker": "Sofia",
+      "content": "Quick one from me: the Razorpay test account is ready."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "Got it, thanks. I'll wire it up this week."
+    },
+    {
+      "speaker": "Kiran",
+      "content": "Also, the Andheri manager asked whether the app will show the doctor's photo."
+    },
+    {
+      "speaker": "Ravi",
+      "content": "We have photos for about half of them. I'd leave that for later."
+    },
+    {
+      "speaker": "Anita",
+      "content": "Fine, later. Anything else? No? Thanks, everyone."
+    }
+  ]
+}
